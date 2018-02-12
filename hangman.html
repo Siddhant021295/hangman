@@ -4,45 +4,46 @@
 	<title>Hangman Game</title>
 	<link rel="stylesheet" type="text/css" href="hangman.css">
 	<script type="text/javascript" src="hangman.js" ></script>
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<!--<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
-<body>
-<input id="movie" type="text">
-<input type="submit" onclick="getData();" value="Enter The Movie">
-<input type="submit" onclick="reset();" value="Restart">
+  <body id="color">
+  <input id="movie" type="password">
+  <input type="submit" onclick="getData();" style="background:  #4CAF50" value="Enter The Movie">
+  <input type="submit" onclick="reset();" style="background:  #4CAF50" value="Restart">
 <div align="center">
-	<img id="target" src="1.png">	
+  <img id="target" src="1.png">	
 </div>
 <div align="center">
-	<h2>Select the Characters</h2>
-<ul>
-  <li><input type="submit" value="A" onclick="onClick(1)"></li>
-  <li><input type="submit" value="B" onclick="onClick(2)"></li>
-  <li><input type="submit" value="C" onclick="onClick(3)"></li>
-  <li><input type="submit" value="D" onclick="onClick(4)"></li>
-  <li><input type="submit" value="E" onclick="onClick(5)"></li>
-  <li><input type="submit" value="F" onclick="onClick(6)"></li>
-  <li><input type="submit" value="G" onclick="onClick(7)"></li>
-  <li><input type="submit" value="H" onclick="onClick(8)"></li>
-  <li><input type="submit" value="I" onclick="onClick(9)"></li>
-  <li><input type="submit" value="J" onclick="onClick(10)"></li>
-  <li><input type="submit" value="K" onclick="onClick(11)"></li>
-  <li><input type="submit" value="L" onclick="onClick(12)"></li>
-  <li><input type="submit" value="M" onclick="onClick(13)"></li>
-  <li><input type="submit" value="N" onclick="onClick(14)"></li>
-  <li><input type="submit" value="O" onclick="onClick(15)"></li>
-  <li><input type="submit" value="P" onclick="onClick(16)"></li>
-  <li><input type="submit" value="Q" onclick="onClick(17)"></li>
-  <li><input type="submit" value="R" onclick="onClick(18)"></li>
-  <li><input type="submit" value="S" onclick="onClick(19)"></li>
-  <li><input type="submit" value="T" onclick="onClick(20)"></li>
-  <li><input type="submit" value="U" onclick="onClick(21)"></li>
-  <li><input type="submit" value="V" onclick="onClick(22)"></li>
-  <li><input type="submit" value="W" onclick="onClick(23)"></li>
-  <li><input type="submit" value="X" onclick="onClick(24)"></li>
-  <li><input type="submit" value="Y" onclick="onClick(25)"></li>
-  <li><input type="submit" value="Z" onclick="onClick(26)"></li>
-</ul>
+  <h1>Select the Characters</h1>
+  <ul>
+    <li><input type="submit" value="A" id="a" onclick="onClick(1)"></li>
+    <li><input type="submit" value="B" id="b" onclick="onClick(2)"></li>
+    <li><input type="submit" value="C" id="c" onclick="onClick(3)"></li>
+    <li><input type="submit" value="D" id="d" onclick="onClick(4)"></li>
+    <li><input type="submit" value="E" id="e" onclick="onClick(5)"></li>
+    <li><input type="submit" value="F" id="f" onclick="onClick(6)"></li>
+    <li><input type="submit" value="G" id="g" onclick="onClick(7)"></li>
+    <li><input type="submit" value="H" id="h" onclick="onClick(8)"></li>
+    <li><input type="submit" value="I" id="i" onclick="onClick(9)"></li>
+    <li><input type="submit" value="J" id="j" onclick="onClick(10)"></li>
+    <li><input type="submit" value="K" id="k" onclick="onClick(11)"></li>
+    <li><input type="submit" value="L" id="l" onclick="onClick(12)"></li>
+    <li><input type="submit" value="M" id="m" onclick="onClick(13)"></li>
+    <li><input type="submit" value="N" id="n" onclick="onClick(14)"></li>
+    <li><input type="submit" value="O" id="o" onclick="onClick(15)"></li>
+    <li><input type="submit" value="P" id="p" onclick="onClick(16)"></li>
+    <li><input type="submit" value="Q" id="q" onclick="onClick(17)"></li>
+    <li><input type="submit" value="R" id="r" onclick="onClick(18)"></li>
+    <li><input type="submit" value="S" id="s" onclick="onClick(19)"></li>
+    <li><input type="submit" value="T" id="t" onclick="onClick(20)"></li>
+    <li><input type="submit" value="U" id="u" onclick="onClick(21)"></li>
+    <li><input type="submit" value="V" id="v" onclick="onClick(22)"></li>
+    <li><input type="submit" value="W" id="w" onclick="onClick(23)"></li>
+    <li><input type="submit" value="X" id="x" onclick="onClick(24)"></li>
+    <li><input type="submit" value="Y" id="y" onclick="onClick(25)"></li>
+    <li><input type="submit" value="Z" id="z" onclick="onClick(26)"></li>
+  </ul>
 </div>
 <div id="demo"> </div>
 </body>
